@@ -34,39 +34,21 @@ A continuación enumeraré las opciones para la configuración del <b>DataSource
 <td>El número total de registros que contiene la estructura de datos recibida como respuesta desde un servidor remoto.</td>
  </tr>
 </table>
-<p align="justify">En el siguiente programa de ejemplo, utilizo la propiedad transport del <b>DataSource</b> para obtener el  archivo <i>authors.txt</i> que se encuentra en el URL: “http://127.0.0.1/~martin/SamplesKendo/authors.txt” (este archivo se encuentra en un Apache Web Server), y los datos contenidos están en formato <b>JSON</b> como se muestra a continuación: </p>
-<div><b>Fig 1</b> El archivo authors.json.</div><br>
-<!--Code authors.json-->
-<div>
-<IMG src="picture_library/KendoDataSource/authorsJS.png">
-</div><br>
-<!--Code-->
-<p align="justify">
-Una vez teniendo el archivo de datos, la configuración del <b>DataSource</b> queda como en el siguiente código JavaScript
+<p align="justify">En el siguiente programa de ejemplo, utilizo la propiedad transport del <b>DataSource</b> para obtener el  archivo <i>authors.txt</i> que se encuentra en el URL: “http://127.0.0.1/~martin/SamplesKendo/authors.txt” (este archivo se encuentra en un Apache Web Server), y los datos contenidos están en formato <b>JSON</b>.
 </p>
-<!--Code JS-->
-<div>
-<IMG src="picture_library/KendoDataSource/datasourceSampleJS.png">
-</div><br>
-<!--Code JS-->
 <p align="justify">
-Esa es la parte JavaScript que tiene la funcionalidad, a continuación el código de la página HTML completa.
+Una vez teniendo el archivo de datos, la configuración del <b>DataSource</b>.
 </p>
-<!--Code HTML-->
-<div>
-<IMG src="picture_library/KendoDataSource/kendoUIDataSource.png">
-</div><br>
-<!--Code HTML-->
 <p>Al ejecutar el código se produce el siguiente resultado:</p>
-<div><b>Fig 2 Databinding con el control DataSource.</b></div><br>
+<div><b>Fig 1 Databinding con el control DataSource.</b></div><br>
 <div>
-<IMG src="picture_library/KendoDataSource/fig1.png" width="777">
+<IMG src="images/fig1.png" width="777">
 </div><br>
-<div><b>Fig 3 Paging con DataSource y Grid.</b></div><br>
+<div><b>Fig 2 Paging con DataSource y Grid.</b></div><br>
 <div>
-<IMG src="picture_library/KendoDataSource/fig2.png" width="777">
+<IMG src="images/fig2.png" width="777">
 </div><br>
-<div><b>Fig 4 Last record con DataSource y Grid. </b></div><br>
+<div><b>Fig 3 Last record con DataSource y Grid. </b></div><br>
 <div>
-<IMG src="picture_library/KendoDataSource/fig3.png" width="777">
+<IMG src="images/fig3.png" width="777">
 </div>
